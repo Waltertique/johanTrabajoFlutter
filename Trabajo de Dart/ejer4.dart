@@ -1,0 +1,12 @@
+import 'dart:io';
+void main(){
+  stdout.write("Ingrese un Numero: ");
+  int num1= int.parse(stdin.readLineSync()!); 
+
+  stdout.write("Ingrese otro numero: ");
+  int num2 = int.parse(stdin.readLineSync()!);
+
+  var resta = num1-num2;
+
+  print("La diferencia del número $num1 con el número $num2 es: $resta");
+}
